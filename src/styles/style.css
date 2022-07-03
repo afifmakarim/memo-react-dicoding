@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+.wrap {
+  margin: 0.6rem;
+  color: black;
+}
+
+main {
+  max-width: 430px;
+  margin: 0 auto;
+  background-color: #e1e1ed;
+  min-height: 100vh;
+}
+
+.head {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.8rem;
+  background-color: bisque;
+  color: chocolate;
+}
+
+.input-notes {
+  color: chocolate;
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  padding: 0.8rem;
+  margin: 0.4rem;
+  border: 1px solid;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: bisque;
+}
+
+.input-notes input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  outline-color: bisque;
+  border: 0;
+}
+
+.input-notes input:focus {
+  outline-color: chocolate;
+}
+
+.input-notes textarea {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border-color: bisque;
+}
+
+.input-notes textarea:focus {
+  outline-color: chocolate;
+}
+
+.btn-notes {
+  color: white;
+  padding: 0.4rem;
+  width: 180px;
+  background: chocolate;
+  border: 0;
+  border-radius: 4px;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  cursor: pointer;
+}
+
+.card-list {
+  color: #111;
+  margin: 0.4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.4rem;
+}
+
+.card-item-body {
+  background: bisque;
+  padding: 8px;
+  border: 1px solid chocolate;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 300px;
+  justify-content: space-around;
+}
+
+.card-item-body h4 {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+}
+
+.card-item-body p, span {
+  font-size: 0.75rem; /* 12px */
+  line-height: 1rem; /* 16px */
+}
+
+.btn-wrapper {
+  height: auto;
+}
+
+.btn {
+  margin: 4px;
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: green;
+}
+
+.secondary {
+  background: red;
+}
